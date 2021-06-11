@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on CHIHUAHUA&#39;s HEAVEN</title>
+    <link>https://ChihuahuaMH.github.io/tags/test/</link>
+    <description>Recent content in test on CHIHUAHUA&#39;s HEAVEN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 11 Jun 2021 23:21:12 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://ChihuahuaMH.github.io/posts/my-first-post/</link>
+      <pubDate>Fri, 11 Jun 2021 23:21:12 +0800</pubDate>
+      
+      <guid>https://ChihuahuaMH.github.io/posts/my-first-post/</guid>
+      <description>test</description>
+    </item>
+    
+  </channel>
+</rss>
