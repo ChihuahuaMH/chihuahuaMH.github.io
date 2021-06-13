@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on CHIHUAHUA&#39;s HEAVEN</title>
-    <link>https://ChihuahuaMH.github.io/posts/</link>
-    <description>Recent content in Posts on CHIHUAHUA&#39;s HEAVEN</description>
+    <title>學習紀錄 on CHIHUAHUA&#39;s HEAVEN</title>
+    <link>https://ChihuahuaMH.github.io/tags/%E5%AD%B8%E7%BF%92%E7%B4%80%E9%8C%84/</link>
+    <description>Recent content in 學習紀錄 on CHIHUAHUA&#39;s HEAVEN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 11 Jun 2021 23:21:12 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jun 2021 23:21:12 +0800</lastBuildDate><atom:link href="https://ChihuahuaMH.github.io/tags/%E5%AD%B8%E7%BF%92%E7%B4%80%E9%8C%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【React】 Ref 用法</title>
       <link>https://ChihuahuaMH.github.io/posts/my-first-post/</link>

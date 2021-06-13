@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>【React】 Ref 用法 | CHIHUAHUA&#39;s HEAVEN</title>
+    <title>前端 | CHIHUAHUA&#39;s HEAVEN</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -28,6 +28,8 @@
     
     
  
+    
+    <link rel="alternate" type="application/rss+xml" href="https://ChihuahuaMH.github.io/tags/%E5%89%8D%E7%AB%AF/index.xml" title="CHIHUAHUA's HEAVEN" />
     </head>
 
     <body>
@@ -132,60 +134,26 @@
         <div id="content" class="content-container">
         
 
-<h1 class="post-title">【React】 Ref 用法</h1>
+  <h1>Tagged "前端"</h1>
+  
+  
     
-    <time>June 11, 2021</time>
+    <article>
+            <h2>
+                <a href="https://ChihuahuaMH.github.io/posts/my-first-post/">
+                    【React】 Ref 用法
+                </a>
+            </h2>
+            <div>
+                <p>透過 Ref 屬性，可以不用 document.getElementBy 的方式取得組件實例具體的 DOM 節點 。
+除了幾個官方指出的情況下使用 Ref，其他時候盡量使用 props 和 state。</p>
+                
+            </div>
+            <div class="post-footer">
+            <time>June 11, 2021</time>
+            </div> 
+        </article>
     
-    <div>
-        <p>
-        <p>透過 <code>Ref</code> 屬性，可以不用 <code>document.getElementBy</code> 的方式取得組件實例具體的 DOM 節點 。</p>
-<p>除了幾個<a href="https://zh-hant.reactjs.org/docs/refs-and-the-dom.html">官方</a>指出的情況下使用 <code>Ref</code>，其他時候盡量使用 <code>props</code> 和 <code>state</code>。</p>
-<h2 id="字串形式的-ref">字串形式的 Ref</h2>
-<p><img src="https://i.imgur.com/IZzA5Af.png" alt=""></p>
-<blockquote>
-<p>我們不建議使用它，因為 string ref 有一些<a href="https://github.com/facebook/react/pull/8333#issuecomment-271648615">問題</a>，所以他被視為 legacy，且很有可能會在未來的版本被移除。</p>
-</blockquote>
-<p>字串形式的 Ref 有效能上的問題，所以 React 官網不建議使用。</p>
-<h2 id="callback-形式的-ref">callback 形式的 Ref</h2>
-<p><code>Ref</code> 屬性可以設置為一個回調函數，也是官方推薦的作法。
-<img src="https://i.imgur.com/Jh8HU8I.png" alt="">
-<img src="https://i.imgur.com/fr3FomG.png" alt=""></p>
-<p><img src="https://i.imgur.com/16LzUUO.png" alt=""></p>
-<p>如果 <code>Ref</code> 回調函數是以內聯函數的方式定義（直接將函數寫在 tag 裡），在更新的過程中（調用 <code>render()</code>）會被執行兩次。
-第一次傳入 <code>null</code>，第二次傳入 DOM 元素。</p>
-<p>這是因為每次渲染時，會創建新的函數實例～
-所以 React 會清空舊的 <code>Ref</code> 並設置新的。</p>
-<p>解決方法：透過將 <code>Ref</code> 的回調函數定義呈 <code>class</code> 的綁定函數的方式即可避免執行兩次的問題，但大多數情況是沒差別的。</p>
-<h2 id="createref">createRef</h2>
-<p><code>React.createRef</code> 調用後可以返回一個容器。
-該容器可以儲存被 <code>Ref</code> 所標示的節點，是專人專用，只能存一個節點。</p>
-<p><img src="https://i.imgur.com/0clkJcr.png" alt=""></p>
-<p>此處練習的是 Class Component 的 <code>Ref</code> 使用方式，對於這塊之前沒有多著墨所以回頭複習～此外也複習了 JS 的 Class 與 Prototype。</p>
-<h2 id="資料參考">資料參考</h2>
-<ul>
-<li><a href="https://www.bilibili.com/video/BV1wy4y1D7JT?p=29">尚硅谷2021版React技术全家桶全套完整版（零基础入门到精通/男神天禹老师亲授）</a></li>
-<li><a href="https://zh-hant.reactjs.org/docs/refs-and-the-dom.html">Refs 和 DOM</a></li>
-<li><a href="https://blog.csdn.net/wu_xianqiang/article/details/89639258">react回调refs更新过程中执行两次</a></li>
-</ul>
-
-        </p>
-    </div>
-    
-
-    
-
-    <div class="page-footer">
-        
-        <hr class="footer-divider">
-        
-            <a class="tag" href="/tags/react">#React</a>
-        
-            <a class="tag" href="/tags/%E5%89%8D%E7%AB%AF">#前端</a>
-        
-            <a class="tag" href="/tags/%E5%AD%B8%E7%BF%92%E7%B4%80%E9%8C%84">#學習紀錄</a>
-        
-      
-    </div>
 
 
         
